@@ -1,4 +1,4 @@
 var a = 2;
 var b = 3;
-b = [a, a = b][0]
+[a, b] = [b, a]
 console.log(a, b)
